@@ -1,0 +1,28 @@
+{
+  "name": "traversygraph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "typescript": "tsc -w",
+    "dev:server": "nodemon server.js",
+    "watch": "concurrently 'npm run typescript' 'npm run dev:server'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/express-graphql": "^0.9.0",
+    "@types/graphql": "^14.5.0",
+    "concurrently": "^5.1.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0",
+    "nodemon": "^2.0.2"
+  }
+}
